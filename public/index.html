@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO List</title>
+    <link rel="stylesheet" href="assets/css/bootstrap_5.css" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">Todo <strong>List</strong></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <button class="btn btn_primary">Login</button>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn_secondary">SignUp</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container">
+      <form action="" id="form" class="d-flex flex-wrap flex-column">
+        <h2 class="title">Login</h2>
+        <div class="mt-5">
+          <label for="email" class="form__label">Email address</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form__input"
+            placeholder="enter email address"
+          />
+        </div>
+        <div class="mt-5">
+          <label for="password" class="form__label">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form__input"
+            minlength="8"
+            placeholder="enter password"
+          />
+        </div>
+        <div class="d-flext align-self-center mt-5">
+          <button class="btn btn_primary">Login</button>
+        </div>
+      </form>
+    </section>
+  </body>
+
+  <script src="assets/js/bootstrap_js.js"></script>
+  <script src="assets/js/index.js"></script>
+</html>
